@@ -2,8 +2,8 @@ title: 南羽集
 subtitle: ''
 description: ''
 keywords: null
-author: John Doe
-language: en
+author: 申树杰
+language: 中文
 timezone: ''
 url: http://example.com
 permalink: ':year/:month/:day/:title/'
@@ -60,4 +60,6 @@ exclude: null
 ignore: null
 theme: hexo-theme-kuri
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Changyuu98/changyu.github.io.git
+  branch: master
