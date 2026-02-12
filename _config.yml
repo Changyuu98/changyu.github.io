@@ -63,4 +63,4 @@ theme: hexo-theme-kuri
 deploy:
   type: git
   repo: https://github.com/Changyuu98/changyu.github.io.git
-  branch: master
+  branch: gh-pages
