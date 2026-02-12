@@ -6,6 +6,8 @@ nickname:  # 昵称
 motto:  # 一句话简介
 logo:  # 头像
 github:  # Github 个人主页地址
+  - https://github.com/changyuu98
+
 background: # 背景图片
   - https://api.ee123.net/img/bingimg/dayimg.jpg
 iconfont: /css/iconfont.css
