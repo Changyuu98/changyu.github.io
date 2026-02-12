@@ -5,7 +5,7 @@ keywords: null
 author: 申树杰
 language: 中文
 timezone: ''
-url: http://example.com
+url: https://changyuu98.github.io
 permalink: ':year/:month/:day/:title/'
 permalink_defaults: null
 pretty_urls:
@@ -58,6 +58,7 @@ pagination_dir: page
 include: null
 exclude: null
 ignore: null
+root: /
 theme: hexo-theme-kuri
 deploy:
   type: git
