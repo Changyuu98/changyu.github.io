@@ -16,30 +16,80 @@ background: # 背景图片
 iconfont: /css/iconfont.css
 
 # SEO / 搜索引擎优化
-fav: /images/fav.png
+fav: /images/fav.png # 浏览器标签页图标
 
 # Sidebar / 侧边栏
 sidebar:
-  A1: # 类别名称
-    B1: # 项目名称
-      - https://example.com/ # 超链接
-      - example # MDUI 鼠标悬停工具提示
+  工具:
+    百度翻译:
+      - https://fanyi.baidu.com/mtpe-individual/transText#/
+      - 百度翻译
+    iLovePDF:
+      - https://www.ilovepdf.com/
+      - 文件转换
+    ToolTT:
+      - https://tooltt.com/#tooltt-code
+      - 进制转换
+    StackEdit:
+      - https://stackedit.cn/#
+      - Markdown
+    See-Tool:
+      - https://see-tool.com/timestamp-converter
+      - 时间转换
 
-sidebar_color: 
-  A1: # 类别名称
-    - near_me # 图标
-    - mdui-text-color-blue # 图标颜色
+  收藏夹:
+    人人都是产品经理:
+      - https://www.woshipm.com/
+      - 产品社区
+    菜鸟教程:
+      - https://www.runoob.com/
+      - 速查手册
+    掘金:
+      - https://juejin.cn/
+      - 技术社区
+    Stack Overflow:
+      - https://stackoverflow.com/
+      - 解决问题
+
+sidebar_color:
+  工具:
+    - apps
+    - mdui-text-color-blue
+  收藏夹:
+    - star
+    - mdui-text-color-orange
 
 # Header / 页眉信息
 chizaobook: true # true / false 在页眉显示摛藻好句功能
 
 # Social / 社交按钮
 social:
-  C1: # 项目名称
-    - https://example.com # 超链接
-    - example # MDUI 鼠标悬停工具提示
-    - iconfont iconbili # 图标
+  博客:
+    - https://space.bilibili.com/446610057
+    - Blog
+    - iconfont iconblog
+  哔哩哔哩:
+    - https://space.bilibili.com/446610057
+    - B站
+    - iconfont iconbili
+  about me:
+    - https://space.bilibili.com/446610057
+    - 关于我
+    - iconfont iconaboutme
+  邮箱:
+    - https://space.bilibili.com/446610057
+    - 邮箱
+    - iconfont iconemail 
 
+# Music / 音乐播放器
+aplayer:
+  enable: true
+  server: tencent
+  type: playlist
+  id: '9664169664'
+  fixed: true
+  volume: 0.7
+  
 # Footer / 页脚信息
 ## copyright / 版权
 author:  # 作者名称
@@ -50,13 +100,7 @@ remark: ''
 regist: ''
 
 # tools / 工具
-analysis: 
+analysis:
   platform: 51.la
-  id: 
-  cd: 
-aplayer: 
-  enable: false
-  platform: 
-  type: 
-  id: 
-  fixed: true
+  id:
+  cd:
