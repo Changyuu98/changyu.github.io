@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="/css/style.css" /> 
   <link rel="stylesheet" href="/css/mdui.css" importance="high"/> 
   
+  <link rel="stylesheet" href="//blog.kuri.ink/lib/aplayer@1.10.0/aplayer.min.css" /> 
+  
   <script src="//cdn.kuri.ink/js/mdui/mdui.min.js" async></script>
   <style>
    @import url("/css/iconfont.css");
@@ -46,7 +48,7 @@
      <span class="mdui-btn mdui-btn-icon mdui-ripple mdui-ripple-white" mdui-drawer="{target: '#main-drawer', swipe: true}"> <i class="mdui-icon material-icons" mdui-tooltip="{content: '菜单'}">menu</i> </span> 
      <div class="mdui-toolbar-spacer">
        
-      <chizaobook style="line-height: 1em; color:#F5F5F5;;"> 
+      <chizaobook style="line-height: 1em; color:#F5F5F5; font-size: 14px;"> 
        <script>
         let app = document.createElement('script');
             app.src = 'https://cdn.jsdelivr.net/gh/ChizaoProject/chizaobook@master/app.js';
@@ -90,18 +92,91 @@
                     mdui-list-item-icon
                     mdui-icon
                     material-icons
-                    mdui-text-color-blue">near_me</i>
+                    mdui-text-color-blue">apps</i>
         <div class="mdui-list-item-content">
-         A1
+         工具
         </div> 
         <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i> 
        </div>
         
          <div class="mdui-collapse-item-body mdui-list"> 
-          <a href="https://example.com/" target="_blank" mdui-tooltip="{content: 'example'}" class="
+          <a href="https://fanyi.baidu.com/mtpe-individual/transText#/" target="_blank" mdui-tooltip="{content: '百度翻译'}" class="
                         mdui-list-item
                         mdui-ripple
-                        ">B1</a> 
+                        ">百度翻译</a> 
+         </div>
+          
+         <div class="mdui-collapse-item-body mdui-list"> 
+          <a href="https://www.ilovepdf.com/" target="_blank" mdui-tooltip="{content: '文件转换'}" class="
+                        mdui-list-item
+                        mdui-ripple
+                        ">iLovePDF</a> 
+         </div>
+          
+         <div class="mdui-collapse-item-body mdui-list"> 
+          <a href="https://tooltt.com/#tooltt-code" target="_blank" mdui-tooltip="{content: '进制转换'}" class="
+                        mdui-list-item
+                        mdui-ripple
+                        ">ToolTT</a> 
+         </div>
+          
+         <div class="mdui-collapse-item-body mdui-list"> 
+          <a href="https://stackedit.cn/#" target="_blank" mdui-tooltip="{content: 'Markdown'}" class="
+                        mdui-list-item
+                        mdui-ripple
+                        ">StackEdit</a> 
+         </div>
+          
+         <div class="mdui-collapse-item-body mdui-list"> 
+          <a href="https://see-tool.com/timestamp-converter" target="_blank" mdui-tooltip="{content: '时间转换'}" class="
+                        mdui-list-item
+                        mdui-ripple
+                        ">See-Tool</a> 
+         </div>
+         
+      </div> 
+       
+      <div class="
+                mdui-collapse-item
+                "> 
+       <div class="mdui-collapse-item-header mdui-list-item mdui-ripple"> 
+        <i class="
+                    mdui-list-item-icon
+                    mdui-icon
+                    material-icons
+                    mdui-text-color-orange">star</i>
+        <div class="mdui-list-item-content">
+         收藏夹
+        </div> 
+        <i class="mdui-collapse-item-arrow mdui-icon material-icons">keyboard_arrow_down</i> 
+       </div>
+        
+         <div class="mdui-collapse-item-body mdui-list"> 
+          <a href="https://www.woshipm.com/" target="_blank" mdui-tooltip="{content: '产品社区'}" class="
+                        mdui-list-item
+                        mdui-ripple
+                        ">人人都是产品经理</a> 
+         </div>
+          
+         <div class="mdui-collapse-item-body mdui-list"> 
+          <a href="https://www.runoob.com/" target="_blank" mdui-tooltip="{content: '速查手册'}" class="
+                        mdui-list-item
+                        mdui-ripple
+                        ">菜鸟教程</a> 
+         </div>
+          
+         <div class="mdui-collapse-item-body mdui-list"> 
+          <a href="https://juejin.cn/" target="_blank" mdui-tooltip="{content: '技术社区'}" class="
+                        mdui-list-item
+                        mdui-ripple
+                        ">掘金</a> 
+         </div>
+          
+         <div class="mdui-collapse-item-body mdui-list"> 
+          <a href="https://stackoverflow.com/" target="_blank" mdui-tooltip="{content: '解决问题'}" class="
+                        mdui-list-item
+                        mdui-ripple
+                        ">Stack Overflow</a> 
          </div>
          
       </div> 
@@ -137,7 +212,13 @@
      <div id="card-content" class="card-content"> 
       <div class="social">
          
-        <a href="https://example.com" target="_blank"><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'example'}"><span class="iconfont iconbili"></span></button></a> 
+        <a href="https://space.bilibili.com/446610057" target="_blank"><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'Blog'}"><span class="iconfont iconblog"></span></button></a> 
+        
+        <a href="https://space.bilibili.com/446610057" target="_blank"><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: 'B站'}"><span class="iconfont iconbili"></span></button></a> 
+        
+        <a href="https://space.bilibili.com/446610057" target="_blank"><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '关于我'}"><span class="iconfont iconaboutme"></span></button></a> 
+        
+        <a href="https://space.bilibili.com/446610057" target="_blank"><button class="mdui-btn mdui-btn-icon" mdui-tooltip="{content: '邮箱'}"><span class="iconfont iconemail"></span></button></a> 
        
       </div> 
      </div> 
@@ -157,6 +238,8 @@
    <script async="" src="//blog.kuri.ink/lib/aplayer@1.10.0/aplayer.min.js" type="text/javascript"></script> 
    <script async="" src="//blog.kuri.ink/lib/meting/meting.min.js" type="text/javascript"></script>
 
+   
+      <meting-js style="position: absolute; z-index:99999;" type="playlist" server="tencent" id="9664169664" fixed="true"></meting-js> 
    
 
    

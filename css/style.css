@@ -174,3 +174,24 @@ hr {
 	visibility: hidden;
 	opacity: 1;
 }
+
+/* 音乐播放器歌词样式 */
+.aplayer-lrc {
+	font-size: 128px;
+	background: transparent;
+	padding: 0;
+}
+
+.aplayer-lrc-content p {
+	font-size: 64px;
+	line-height: 16;
+	color: #ffffff;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.aplayer-lrc-current {
+	font-size: 64px;
+	font-weight: bold;
+	color: #ffcc00;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
